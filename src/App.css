@@ -12,8 +12,12 @@
 .header {
     grid-area: h;
     background-color: #234374;
-}
 
+}
+.header img{
+    width: 40px;
+    padding: 10px 10px;
+}
 .nav {
     grid-area: n;
     height: 100vh;
@@ -28,8 +32,7 @@
 }
 
 .logo {
-    width: 40px;
-    padding: 10px 10px;
+
 }
 
 .img {

@@ -7,8 +7,8 @@ import {Profile} from './components/profile/Profile';
 function App() {
     return (
         <div className="app-wrapper">
-            <Header />
-           <Navbar/>
+            <Header/>
+            <Navbar/>
             <Profile/>
         </div>
     );

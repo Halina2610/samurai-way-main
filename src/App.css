@@ -6,49 +6,4 @@
     gap: 10px;
     width: 1170px;
     margin: 0 auto;
-
 }
-
-.header {
-    grid-area: h;
-    background-color: #234374;
-
-}
-.header img{
-    width: 40px;
-    padding: 10px 10px;
-}
-.nav {
-    grid-area: n;
-    height: 100vh;
-    background-color: #5d77bb;
-
-}
-
-.content {
-    grid-area: c;
-    background-color: #abfff1;
-
-}
-
-.logo {
-
-}
-
-.img {
-    width: 100%;
-    height: 300px;
-}
-
-.avatar_info {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 20px;
-}
-.avatar_info div img {
-    width: 200px;
-}
-.avatar_info {
-    background-color:  aliceblue;
-}
-

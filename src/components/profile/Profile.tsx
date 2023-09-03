@@ -1,13 +1,16 @@
 import React from 'react';
+import classes from './Profile.module.css';
+import {MyPosts} from './myPosts/MyPosts';
+
 
 export const Profile = () => {
     return (
         <div>
-            <div className="content">
+            <div className={classes.content}>
                 <div>
-                    <img className="img" src="https://fatcatart.com/wp-content/uploads/2016/04/space-cat-min.jpg"/>
+                    <img className={classes.img} src="https://fatcatart.com/wp-content/uploads/2016/04/space-cat-min.jpg"/>
                 </div>
-                <div className="avatar_info">
+                <div className={classes.avatar}>
                     <div>
                         <img src="https://klike.net/uploads/posts/2019-03/1551511801_1.jpg"/>
                     </div>
@@ -19,10 +22,7 @@ export const Profile = () => {
                     </div>
                 </div>
 
-                <div>My post</div>
-                <div>New post</div>
-                <div>Post 1</div>
-                <div>Post 2</div>
+                <MyPosts/>
             </div>
         </div>
     );

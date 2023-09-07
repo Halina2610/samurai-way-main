@@ -3,10 +3,11 @@ import classes from './Profile.module.css';
 import {MyPosts} from './myPosts/MyPosts';
 
 
+
 export const Profile = () => {
     return (
         <div>
-            <div className={classes.content}>
+            <div className={'app-wrapper-content'}>
                 <div>
                     <img className={classes.img} src="https://fatcatart.com/wp-content/uploads/2016/04/space-cat-min.jpg"/>
                 </div>

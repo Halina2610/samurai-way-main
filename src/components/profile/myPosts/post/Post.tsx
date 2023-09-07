@@ -6,6 +6,7 @@ type PropsType = {
     title: string
     post: string
     img: string
+    likeCount: number
 }
 
 export const Post = (props: PropsType) => {
@@ -15,7 +16,7 @@ export const Post = (props: PropsType) => {
             <span>{props.name}</span>
             <div>{props.title}</div>
             <p>{props.post}</p>
-            <div><span>like</span></div>
+            <div><span>like {props.likeCount}</span></div>
         </div>
     );
 };

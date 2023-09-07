@@ -7,3 +7,8 @@
     width: 1170px;
     margin: 0 auto;
 }
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: #abfff1;
+}
